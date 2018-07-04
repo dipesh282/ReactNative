@@ -1,7 +1,6 @@
 # ReactNative
-Install Node
-
-brew install node
+Install Node  
+$brew install node
 
 Install Watchman
 
