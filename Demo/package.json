@@ -1,0 +1,29 @@
+{
+  "name": "Demo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "ios-bundle": "react-native bundle --dev false --entry-file index.js --platform ios --bundle-output ios/main.jsbundle",
+    "ios-dev-bundle": "react-native bundle --entry-file index.js --platform ios --bundle-output ios/main.jsbundle",
+    "android-bundle": "react-native bundle --dev false --entry-file index.js --platform android --bundle-output android/app/src/main/assets/index.android.bundle",
+    "android-dev-bundle": "react-native bundle --entry-file index.js --platform android --bundle-output android/app/src/main/assets/index.android.bundle",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-ui-lib": "^3.3.134",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.5.5"
+  },
+  "devDependencies": {
+    "babel-jest": "23.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.2.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
