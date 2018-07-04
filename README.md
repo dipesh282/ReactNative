@@ -1,8 +1,10 @@
 # ReactNative
 Install Node
+
 brew install node
 
 Install Watchman
+
 brew install watchman
 
 Install React-Native
