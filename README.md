@@ -39,9 +39,7 @@ crete ios bundle for offline
 Add to scripts in package.json  
 "ios-bundle": "react-native bundle --dev false --entry-file index.js --platform ios --bundle-output ios/main.jsbundle",  
 "ios-dev-bundle": "react-native bundle --entry-file index.js --platform ios --bundle-output ios/main.jsbundle",  
-
 $npm run ios-bundle  
-
 Change app delegate to  
 jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];  
 -------------------------------------------------------------------------------------------------------------  
